@@ -26,7 +26,8 @@ client.on('message', msg => {
      
    }
   
-  
+     if (msg.content === '!esco') {
+   msg.reply('lol u mum gay xd u dad lesbani');
      
 }});
 
