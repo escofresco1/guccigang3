@@ -19,6 +19,11 @@ client.on('message', msg => {
     if (msg.content === '!buy robux') {
     msg.reply('DM ToggledReach#2064 | 500 Robux');
    
+    }
+  
+   if (msg.content === '!annouceplz') {
+    channel.sendMessage('@everyone DM @esco#2218 to apply for beta tester. You must have a exploit that supports HttpGet and loadstring and why you want to beta test.');
+      
 }});
 
 
