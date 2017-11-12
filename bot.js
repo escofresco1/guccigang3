@@ -7,7 +7,7 @@ const client = new Discord.Client();
 
 client.on('message', msg => {
   if (msg.content === '!buy paypal') {
-    msg.reply('Instant Buy | $1 - https://rocketr.net/buy/9d04461344ca');
+    msg.reply('Instant Buy | $1.50 - https://rocketr.net/buy/9d04461344ca');
    
   }
   
