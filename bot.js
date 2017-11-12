@@ -23,7 +23,11 @@ client.on('message', msg => {
   
    if (msg.content === '!annouceplz') {
     channel.sendMessage('@everyone DM @esco#2218 to apply for beta tester. You must have a exploit that supports HttpGet and loadstring and why you want to beta test.');
-      
+     
+   }
+  
+  
+     
 }});
 
 
