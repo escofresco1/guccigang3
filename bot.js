@@ -6,8 +6,19 @@ const client = new Discord.Client();
 });
 
 client.on('message', msg => {
-  if (msg.content === '!buy') {
-    msg.reply('Oh yes forgot. https://rocketr.net/buy/9d04461344ca');
+  if (msg.content === '!buy paypal') {
+    msg.reply('Instant Buy | $1 - https://rocketr.net/buy/9d04461344ca');
+   
+  }
+  
+  if (msg.content === '!buy bitcoin') {
+    msg.reply('DM Potato#5782 | Price 0.00016 Bitcoin');
+    
+  }
+  
+    if (msg.content === '!buy robux') {
+    msg.reply('DM ToggledReach#2064 | 500 Robux');
+   
 }});
 
 
