@@ -11,6 +11,11 @@ client.on('message', msg => {
    
   }
   
+  if (msg.content === '!help') {
+    msg.reply('!buy paypal | !buy bitcoin | !buy robux');
+    
+  }
+  
   if (msg.content === '!buy bitcoin') {
     msg.reply('DM Potato#5782 | Price 0.00016 Bitcoin');
     
