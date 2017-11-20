@@ -31,8 +31,11 @@ client.on('message', msg => {
      
    }
   
-     if (msg.content === '!esco') {
-   msg.reply('lol u mum gay xd u dad lesbani');
+     if (msg.content === '!download') {
+       message.channel.send({embed: {
+         color: 3447003,
+         description: "you thuoght"
+}});
      
 }});
 
