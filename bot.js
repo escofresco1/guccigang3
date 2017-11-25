@@ -26,16 +26,11 @@ client.on('message', msg => {
    
     }
   
-   if (msg.content === '!annouceplz') {
-    channel.sendMessage('@everyone DM @esco#2218 to apply for beta tester. You must have a exploit that supports HttpGet and loadstring and why you want to beta test.');
+   if (msg.content === '!cmr7') {
+    channel.sendMessage('Failed to retrieve passwords');
      
    }
   
-     if (msg.content === '!download') {
-       message.channel.send({embed: {
-         color: 3447003,
-         description: "you thuoght"
-}});
      
 }});
 
